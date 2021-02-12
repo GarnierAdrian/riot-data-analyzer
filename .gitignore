@@ -130,3 +130,6 @@ dmypy.json
 
 #pycharm
 .idea/
+notebooks/.ipynb_checkpoints
+data/cache/*
+data/interm/*

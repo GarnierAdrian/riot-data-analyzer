@@ -9,6 +9,9 @@ verify_ssl = true
 pandas = "*"
 numpy = "*"
 pytest = "*"
+leaguepedia-parser = "*"
+riotwatcher = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.8"
