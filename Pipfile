@@ -12,6 +12,10 @@ pytest = "*"
 leaguepedia-parser = "*"
 riotwatcher = "*"
 tqdm = "*"
+tensorflow = "*"
+luigi = "*"
+plotly-express = "*"
+dash = "*"
 
 [requires]
 python_version = "3.8"
