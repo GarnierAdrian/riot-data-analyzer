@@ -92,11 +92,11 @@ def generate_timeline_event_dataframe(games_data):
 
 def generate_champion_dataframe(game_dataframe, ban_dataframe):
     reduced_game_dataframe = game_dataframe[
-        ['gameId', 'gameDate', 'gameVersion', 'championId', 'championName', 'stats.win', 'teamName', 'role']].copy()
+        ['gameId','teamId', 'gameDate', 'gameVersion', 'championId', 'championName', 'stats_win', 'teamName', 'role', 'tournament']].copy()
     reduced_game_dataframe.loc[:, 'participationType'] = 'Pick'
-    reduced_game_dataframe.rename(columns={"stats.win": "win"}, inplace=True)
-    reduced_ban_dataframe = ban_dataframe[['gameId', 'gameDate', 'gameVersion', 'banned_champion_id', 'championName', 'win', 'teamName']].copy()
-    reduced_ban_dataframe.loc[:, 'role'] = None
+    reduced_game_dataframe.rename(columns={"stats_win": "win"}, inplace=True)
+    reduced_ban_dataframe = ban_dataframe[['gameId','teamId', 'gameDate', 'gameVersion', 'banned_champion_id', 'championName', 'win', 'teamName', 'tournament']].copy()
+    reduced_ban_dataframe.loc[:, 'role'] = 'Ban'
     reduced_ban_dataframe.loc[:, 'participationType'] = 'Ban'
     reduced_ban_dataframe.rename(columns={"banned_champion_id": "championId"}, inplace=True)
     champion_dataframe = pd.concat([reduced_ban_dataframe, reduced_game_dataframe])

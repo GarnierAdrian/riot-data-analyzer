@@ -48,14 +48,14 @@ Semana,Juego ,MH,Torneo
 6,RR VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1896640?gameHash=5659c345c288477d&tab=overview,Kraken Masters
 6,QE VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1896655?gameHash=1116560e02a16547&tab=overview,Kraken Masters
 6,HIPO VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1896659?gameHash=d7f006407b3806e9&tab=overview,Kraken Masters
-7,PG VS TH,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723187?gameHash=5b6c15efe086b2ab&tab=stats,Mixto
-7,DEL VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723233?gameHash=b2c11c3147343c96&tab=overview,Mixto
-7,GOAT VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723255?gameHash=6dff1c50095212a1&tab=overview,Mixto
-7,FTA VS VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723268?gameHash=8c244e4600248895&tab=overview,Mixto
-7,STK VS RR,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724190?gameHash=068b154552ad6431&tab=overview,Mixto
-7,BAN VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724217?gameHash=6f88c2bd64fb0652&tab=stats,Mixto
-7,3SG VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724232?gameHash=ecdfec9bad16ee30&tab=overview,Mixto
-7,FGO VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724253?gameHash=8641a6bad2ebca6f&tab=overview,Mixto
+7,PG VS TH,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723187?gameHash=5b6c15efe086b2ab&tab=stats,Leviathan Masters
+7,DEL VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723233?gameHash=b2c11c3147343c96&tab=overview,Leviathan Masters
+7,GOAT VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723255?gameHash=6dff1c50095212a1&tab=overview,Leviathan Masters
+7,FTA VS VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1723268?gameHash=8c244e4600248895&tab=overview,Leviathan Masters
+7,STK VS RR,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724190?gameHash=068b154552ad6431&tab=overview,Kraken Masters
+7,BAN VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724217?gameHash=6f88c2bd64fb0652&tab=stats,Kraken Masters
+7,3SG VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724232?gameHash=ecdfec9bad16ee30&tab=overview,Kraken Masters
+7,FGO VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1724253?gameHash=8641a6bad2ebca6f&tab=overview,Kraken Masters
 8,FTA VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1726095?gameHash=de4c759b0cf6d849&tab=overview,Mixto
 8,GOAT VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1726117?gameHash=f58c4c81e7b92111&tab=overview,Mixto
 8,TH VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1726121?gameHash=e84911265ca5898e&tab=overview,Mixto
@@ -96,7 +96,65 @@ Semana,Juego ,MH,Torneo
 12,PG VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1921458?gameHash=736f0e9159ff1e75&tab=overview,Mixto
 12,TH VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1921463?gameHash=e88ba3243d2f8df9&tab=stats,Mixto
 12,JV VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1921464?gameHash=052ee2fa6365b0dd&tab=stats,Mixto
-,,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840544?gameHash=2fbe430b6e710962&tab=stats,Mixto
-,,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840551?gameHash=25621bd58ecfb2ca&tab=overview,Mixto
-,,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840553?gameHash=92c38428ea62e15b&tab=overview,Mixto
-,,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840557?gameHash=788e3ba73fe8d5f9&tab=overview,Mixto
+13,QE 1 vs 0 GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840544?gameHash=2fbe430b6e710962&tab=stats,Mixto
+13,RR 0 vs 1 JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840551?gameHash=25621bd58ecfb2ca&tab=overview,Mixto
+13,TH 0 vs 1 FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840553?gameHash=92c38428ea62e15b&tab=overview,Mixto
+13,HIPO 0 vs 1 SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840557?gameHash=788e3ba73fe8d5f9&tab=overview,Mixto
+13,STK vs FTA,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840699?gameHash=562300215e18d7ad&tab=stats,Mixto
+13,BAN vs DEL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840704?gameHash=6bbf29fdfc8dcf2c&tab=stats,Mixto
+13,VDL vs PG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840717?gameHash=2f789a4093f910e8&tab=overview,Mixto
+13,3SG vs VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1840721?gameHash=04d2aa52386a7d6d&tab=overview,Mixto
+14,PG 0 vs 0 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1850964?gameHash=c080533a85060cf1&tab=stats,Mixto
+14,SAP 0 vs 0 QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1850968?gameHash=0edb02c5e9b26ae6&tab=overview,Mixto
+14,FTA 0 vs 0 HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1850974?gameHash=7bfd32dd29bb3b24&tab=stats,Mixto
+14,TH 0 vs 0 BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1850976?gameHash=7a28e742d6912553&tab=stats,Mixto
+14,PG VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1851009?gameHash=52653c9cb6cea305&tab=stats,Mixto
+14,SAP VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1851017?gameHash=adfc592dc8cececa&tab=stats,Mixto
+14,FTA VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1851019?gameHash=1330aa340f4681b5&tab=overview,Mixto
+14,TH VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1851020?gameHash=713c20b4eb68fb04&tab=stats,Mixto
+15,SAP VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1862919?gameHash=9a362353b154e659&tab=stats,Mixto
+15,STK VS VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1862924?gameHash=7c150bee268f74e3&tab=overview,Mixto
+15,HIPO VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1862929?gameHash=3ecfe880030dc824&tab=stats,Mixto
+15,RR VS PG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1862934?gameHash=7fce253f5df91487&tab=overview,Mixto
+15,3SG VS DEL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1863111?gameHash=34677034c88d8f91&tab=stats,Mixto
+15,VDL VS TH,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1863118?gameHash=2aceeb10b8648d00&tab=overview,Mixto
+15,QE VS FTA,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1863123?gameHash=edc4e2ffbf4647c5&tab=overview,Mixto
+15,BAN VS GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1863125?gameHash=2403f875af401f74&tab=overview,Mixto
+16,VDL VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1993931?gameHash=9130974d3b6c7050&tab=overview,Kraken Masters
+16,QE VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1993954?gameHash=0dd6100896a96401&tab=overview,Kraken Masters
+16,SAP VS GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1993981?gameHash=8bef13f968db5dac&tab=overview,Leviathan Masters
+16,VL VS FTA,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1993995?gameHash=85b0005813c55c36&tab=overview,Leviathan Masters
+16,RR VS STK,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1994777?gameHash=a901eb226bb818ae&tab=overview,Kraken Masters
+16,HIPO VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1994815?gameHash=3ed3e878fc288410&tab=overview,Kraken Masters
+16,TH VS PG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/1994842?gameHash=7866b69efb3ecf0e&tab=overview,Leviathan Masters
+17,3SG VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2040529?gameHash=5a98025a5a0f825e&tab=stats,Kraken Masters
+17,FGO VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2040531?gameHash=1d69f19bae8b12fa&tab=overview,Kraken Masters
+17,FTA VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2040538?gameHash=75f3a05e0e81aeeb&tab=stats,Leviathan Masters
+17,DEL VS PG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2040540?gameHash=a13a1d29602b556b&tab=overview,Leviathan Masters
+17,STK VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2030896?gameHash=8cd93de7fc9065ff&tab=stats,Kraken Masters
+17,BAN VS RR,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2030903?gameHash=4138cda3b63ba4be&tab=overview,Kraken Masters
+17,VL VS GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2030907?gameHash=29269f2456e98e4d&tab=overview,Leviathan Masters
+17,TH VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2030910?gameHash=582aaab84a46fbef&tab=stats,Leviathan Masters
+18,RR VS 3SG,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1935531?gameHash=56fa9c503bf49a4a&tab=overview,Kraken Masters
+18,STK VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1935506?gameHash=1e4055acd2928675&tab=stats,Kraken Masters
+18,GOAT VS FTA,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1935562?gameHash=9fc6102b53063338&tab=stats,Leviathan Masters
+18,PG VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1935567?gameHash=4ec9588d215de5f2&tab=overview,Leviathan Masters
+18,VDL VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1927306?gameHash=5b9856bbf71c031b&tab=stats,Kraken Masters
+18,VL VS TH,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1927316?gameHash=e16caedbfc1fc4e1&tab=overview,Leviathan Masters
+18,SAP VS DEL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT02/1927343?gameHash=13764b985b0b67c3&tab=stats,Leviathan Masters
+19,QE VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1951726?gameHash=938227dd2893b622&tab=stats,Kraken Masters
+19,3SG VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1951756?gameHash=3dca7545e9f1381a&tab=overview,Kraken Masters
+19,VL VS DEL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1951783?gameHash=984a9188064ca3d6&tab=stats,Leviathan Masters
+19,GOAT VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1951798?gameHash=2d946e9f348e1f02&tab=stats,Leviathan Masters
+19,BAN VS STK,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1990499?gameHash=79aa6a80fee59c4a&tab=overview,Kraken Masters
+19,FGO VS RR,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1990532?gameHash=bc37b5d875ba0cd3&tab=stats,Kraken Masters
+19,PG VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1990546?gameHash=8f3f44b04b5a055e&tab=stats,Leviathan Masters
+19,FTA VS TH,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1990555?gameHash=718f0d53e2b8c1e2&tab=overview,Leviathan Masters
+20,RR VS HIPO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1993651?gameHash=0192a0e2c06c78f0&tab=overview,Kraken Masters
+20,STK VS QE,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1993683?gameHash=973b68b2ebad156e&tab=overview,Kraken Masters
+20,DEL VS GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1993710?gameHash=266caef1e1b8260f&tab=overview,Leviathan Masters
+20,TH VS JV,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1993734?gameHash=b9ad686403a4cdf2&tab=stats,Leviathan Masters
+20,VDL VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005140?gameHash=36fe719ef728f483&tab=overview,Kraken Masters
+20,3SG VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005209?gameHash=019a386b3fc92cd4&tab=overview,Kraken Masters
+20,SAP VS VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005220?gameHash=bb3cf45cad1da2f8&tab=overview,Leviathan Masters
+20,PG VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005235?gameHash=727e9c6d52276126&tab=overview,Leviathan Masters
