@@ -4,6 +4,8 @@ import os
 import pandas as pd
 import re
 import logging
+from google.cloud import bigquery
+
 
 #TODO move this to env or conf file.
 base_match_history_stats_url = "https://acs.leagueoflegends.com/v1/stats/game/{}/{}?gameHash={}"
@@ -116,3 +118,12 @@ def is_file_downloaded(path):
         return True
     except IOError:
         return False
+
+
+def upload_to_big_query(dataframe, table):
+    client = bigquery.Client()
+    project = "tempest-league"
+    dataset = "tournament"
+    client.delete_table(f"{project}.{dataset}.{table}", not_found_ok=True)
+    job = client.load_table_from_dataframe(dataframe, f"{project}.{dataset}.{table}")
+    job.result()

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from data_manager import get_all_games, get_games_list, get_data_dragon_file
+from data_manager import get_all_games, get_games_list, get_data_dragon_file, upload_to_big_query
 import json
 import logging
 from data_procesing import calculate_kda, calculate_kp, calculate_list_of_solo_kills_and_deaths, \
@@ -78,9 +78,11 @@ game_dataframe = game_dataframe.sort_values(by=['gameCreation', 'participantId']
 
 # Add champion Names
 game_dataframe.loc[:,'championName'] = replace_championId_with_champion_name(game_dataframe.championId, game_dataframe.gameVersion.iat[-1])
+game_dataframe.columns = game_dataframe.columns.str.replace("\.", "_", regex=True)
 
 # Saving the dataframe without index.
 game_dataframe.to_csv('data/interm/game.csv', index=False)
+upload_to_big_query(game_dataframe, "game")
 
 # Get Data Dragon information for champions, items and summoner spells
 for version in pd.unique(game_dataframe.gameVersion):
@@ -123,31 +125,39 @@ bans_dataframe = bans_dataframe.drop('bans', axis=1)
 
 # Add champion Names
 bans_dataframe.loc[:,'championName'] = replace_championId_with_champion_name(bans_dataframe.banned_champion_id, bans_dataframe.gameVersion.iat[-1])
+bans_dataframe.columns = bans_dataframe.columns.str.replace("\.", "_", regex=True)
 
 # Remove Banns from Team Dataframe.
 teams_dataframe = teams_dataframe.drop('bans', axis=1)
+teams_dataframe.columns = teams_dataframe.columns.str.replace("\.", "_", regex=True)
 
-# Save Teams to csv
-teams_dataframe.to_csv('data/interm/teams.csv', index=False)
-
-# Saves Banns to csv.
-bans_dataframe.to_csv('data/interm/bans.csv', index=False)
 
 # Generate Timeline Dataframe
 timeline_dataframe = generate_timeline_player_dataframe(all_games_data)
 
 # Add Timeline Dataframe to players name
 timeline_dataframe = pd.merge(timeline_dataframe, game_dataframe[
-    ['gameId', 'stats.participantId', 'teamName', 'summonerName']].drop_duplicates(),
-                              right_on=['gameId', 'stats.participantId'], left_on=['gameId', 'participantId'],
+    ['gameId', 'stats_participantId', 'teamName', 'summonerName']].drop_duplicates(),
+                              right_on=['gameId', 'stats_participantId'], left_on=['gameId', 'participantId'],
                               how='inner')
 
 # Sort Dataframe by Game date, timestamp and participant ID
 timeline_dataframe.sort_values(by=['gameCreation', 'timestamps', 'participantId'], inplace=True)
+timeline_dataframe.columns = timeline_dataframe.columns.str.replace("\.", "_", regex=True)
 
 # Save timeline to csv
 timeline_dataframe.to_csv('data/interm/player_frames.csv', index=False)
+upload_to_big_query(timeline_dataframe, "timeline")
 
 champion_dataframe = generate_champion_dataframe(game_dataframe, bans_dataframe)
 
 champion_dataframe.to_csv('data/interm/champion.csv', index=False)
+upload_to_big_query(champion_dataframe, "champion")
+
+# Save Teams to csv
+teams_dataframe.to_csv('data/interm/teams.csv', index=False)
+upload_to_big_query(teams_dataframe, "teams")
+
+# Saves Banns to csv.
+bans_dataframe.to_csv('data/interm/bans.csv', index=False)
+upload_to_big_query(bans_dataframe, "bans")
