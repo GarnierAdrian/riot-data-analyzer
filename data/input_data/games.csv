@@ -157,6 +157,7 @@ Semana,Juego ,MH,Torneo
 20,VDL VS BAN,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005140?gameHash=36fe719ef728f483&tab=overview,Kraken Masters
 20,3SG VS FGO,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005209?gameHash=019a386b3fc92cd4&tab=overview,Kraken Masters
 20,SAP VS VL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005220?gameHash=bb3cf45cad1da2f8&tab=overview,Leviathan Masters
+<<<<<<< HEAD
 20,PG VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005235?gameHash=727e9c6d52276126&tab=overview,Leviathan Masters
 21,QE VS RR,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2141430?gameHash=fc5959c9b218837e&tab=overview,Kraken Masters
 21,HIPO VS STK,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2141468?gameHash=f5de524e80ca7f19&tab=overview,Kraken Masters
@@ -174,3 +175,6 @@ Semana,Juego ,MH,Torneo
 22,RR VS VDL,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2132983?gameHash=e51a9b85494a5c98&tab=overview,Kraken Masters
 22,SAP VS FTA,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2133090?gameHash=0f5a24a8264d9414&tab=stats,Leviathan Masters
 22,PG VS GOAT,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT01/2133122?gameHash=cf85a06a4c2ac173&tab=overview,Leviathan Masters
+=======
+20,PG VS SAP,https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/2005235?gameHash=727e9c6d52276126&tab=overview,Leviathan Masters
+>>>>>>> 2f5d2a86597b2bf4093abf4f9b763e6b2b2b0043

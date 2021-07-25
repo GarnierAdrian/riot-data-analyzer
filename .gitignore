@@ -133,3 +133,4 @@ dmypy.json
 notebooks/.ipynb_checkpoints
 data/cache/*
 data/interm/*
+data/input_data/*
