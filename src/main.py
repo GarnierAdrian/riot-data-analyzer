@@ -150,6 +150,9 @@ timeline_dataframe.to_csv('data/interm/player_frames.csv', index=False)
 upload_to_big_query(timeline_dataframe, "timeline")
 
 champion_dataframe = generate_champion_dataframe(game_dataframe, bans_dataframe)
+print(champion_dataframe.dtypes)
+champion_dataframe['win'] = champion_dataframe['win'].astype(int)
+print(champion_dataframe.dtypes)
 
 champion_dataframe.to_csv('data/interm/champion.csv', index=False)
 upload_to_big_query(champion_dataframe, "champion")
